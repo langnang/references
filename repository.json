@@ -1,0 +1,97 @@
+{
+  "styles": {},
+  "scripts": {},
+  "_metas": {
+    "useful": {
+      "id": "useful",
+      "title": "常用网站",
+      "type": "category"
+    },
+    "journals": {
+      "id": "journals",
+      "title": "期刊官网",
+      "type": "category"
+    },
+    "scholars": {
+      "id": "scholars",
+      "title": "关注学者",
+      "type": "category"
+    }
+  },
+  "_contents": {},
+  "_links": {
+    "aminer": {
+      "name": "AMiner",
+      "url": "https://www.aminer.cn/",
+      "desc": "学术搜索与分析",
+      "keywords": "示例"
+    },
+    "x-mol": {
+      "name": "X-MOL",
+      "url": "https://www.x-mol.com/",
+      "desc": "学术资讯平台",
+      "keywords": "示例"
+    },
+    "nature": {
+      "name": "Nature",
+      "url": "https://www.nature.com/",
+      "desc": "",
+      "keywords": ""
+    },
+    "science": {
+      "name": "Science",
+      "url": "https://www.science.org/",
+      "desc": "",
+      "keywords": ""
+    },
+    "zhangxigroup": {
+      "name": "张希",
+      "url": "http://zhangxigroup.com/",
+      "desc": "清华大学",
+      "keywords": "超分子"
+    },
+    "peijian": {
+      "name": "裴坚",
+      "url": "http://www.chem.pku.edu.cn/pei/",
+      "desc": "北京大学",
+      "keywords": "有机电子"
+    },
+    "baogroup": {
+      "name": "鲍哲楠",
+      "url": "http://baogroup.stanford.edu/",
+      "desc": "斯坦福大学",
+      "keywords": "柔性电子"
+    }
+  },
+  "_files": {},
+  "_relationships": [
+    {
+      "meta": "useful",
+      "content": "aminer"
+    },
+    {
+      "meta": "useful",
+      "content": "x-mol"
+    },
+    {
+      "meta": "journals",
+      "content": "nature"
+    },
+    {
+      "meta": "journals",
+      "content": "science"
+    },
+    {
+      "meta": "scholars",
+      "content": "zhangxigroup"
+    },
+    {
+      "meta": "scholars",
+      "content": "peijian"
+    },
+    {
+      "meta": "scholars",
+      "content": "baogroup"
+    }
+  ]
+}

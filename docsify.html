@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>References·参考文献</title>
+  <link rel="stylesheet" href="https://unpkg.com/docsify@5.1.0/dist/themes/core.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/docsify@5.1.0/dist/themes/addons/vue.min.css">
+  <style>
+    :root {
+      --content-max-width: 80%;
+    }
+
+    .markdown-section table {
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">加载中，请稍后...</div>
+  <script>
+    window.$docsify = {
+      name: 'References·参考文献',
+      repo: 'https://github.com/langnang/references',
+      // coverpage: true,
+      // onlyCover: true,
+      loadSidebar: '_sidebar.md',
+      maxLevel: 3,
+      subMaxLevel: 3,
+      // load from _navbar.md
+      loadNavbar: true,
+      // load from nav.md
+      loadNavbar: "_nav.md",
+      alias: {
+        // '/.*/README.md': '/README.md',
+        // "/.*/_sidebar.md": "/_sidebar.md",
+      },
+      // subMaxLevel: 2
+      // relativePath: true,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="https://unpkg.com/docsify@5.1.0/dist/docsify.min.js"></script>
+</body>
+
+</html>
