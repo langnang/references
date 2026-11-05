@@ -1,308 +1,310 @@
 {
   "name": "langnang/references",
   "title": "References·参考文献",
-  "_styles": {},
-  "_scripts": {},
-  "_metas": {
-    "useful": {
-      "id": "useful",
-      "title": "常用网站",
-      "type": "category",
-      "contents": [],
-      "links": [],
-      "files": []
+  "onenav": {
+    "_styles": {},
+    "_scripts": {},
+    "_metas": {
+      "useful": {
+        "id": "useful",
+        "title": "常用网站",
+        "type": "category",
+        "contents": [],
+        "links": [],
+        "files": []
+      },
+      "journals": {
+        "id": "journals",
+        "title": "期刊官网",
+        "type": "category",
+        "contents": [],
+        "links": [],
+        "files": []
+      },
+      "scholars": {
+        "id": "scholars",
+        "title": "关注学者",
+        "type": "category",
+        "contents": [],
+        "links": [],
+        "files": []
+      },
+      "web": {
+        "id": "web",
+        "title": "Web",
+        "type": "category",
+        "children": [
+          "html",
+          "css",
+          "javascript"
+        ],
+        "contents": [],
+        "links": [
+          "w3school_html",
+          "w3school_css",
+          "w3school_js",
+          "runoob_html",
+          "runoob_css",
+          "runoob_js"
+        ],
+        "files": []
+      },
+      "nodejs": {
+        "id": "nodejs",
+        "title": "Node.js",
+        "type": "category",
+        "contents": [],
+        "links": [
+          "org_vue",
+          "org_react",
+          "org_angular",
+          "org_nodejs",
+          "org_npm",
+          "org_yarn",
+          "org_pnpm",
+          "org_vite",
+          "org_webpack",
+          "org_rollup",
+          "org_esbuild",
+          "org_babel",
+          "org_typescript"
+        ],
+        "files": []
+      },
+      "php": {
+        "id": "php",
+        "title": "PHP",
+        "type": "category",
+        "contents": [],
+        "links": [
+          "org_php"
+        ],
+        "files": []
+      },
+      "composer": {
+        "id": "composer",
+        "title": "Composer",
+        "type": "category",
+        "contents": [],
+        "links": [
+          "org_composer"
+        ],
+        "files": []
+      }
     },
-    "journals": {
-      "id": "journals",
-      "title": "期刊官网",
-      "type": "category",
-      "contents": [],
-      "links": [],
-      "files": []
+    "_contents": {},
+    "_links": {
+      "org_vue": {
+        "name": "Vue.js 官方文档",
+        "url": "https://cn.vuejs.org/"
+      },
+      "org_react": {
+        "name": "React 官方文档",
+        "url": "https://react.docschina.org/"
+      },
+      "org_angular": {
+        "name": "Angular 官方文档",
+        "url": "https://angular.cn/"
+      },
+      "org_nodejs": {
+        "name": "Node.js 官方文档",
+        "url": "https://nodejs.org/zh-cn/docs/"
+      },
+      "org_php": {
+        "name": "PHP 官方文档",
+        "url": "https://www.php.net/manual/zh/"
+      },
+      "org_composer": {
+        "name": "Composer 官方文档",
+        "url": "https://getcomposer.org/doc/"
+      },
+      "org_npm": {
+        "name": "NPM 官方文档",
+        "url": "https://docs.npmjs.com/"
+      },
+      "org_yarn": {
+        "name": "Yarn 官方文档",
+        "url": "https://yarnpkg.com/zh-Hans/docs/"
+      },
+      "org_pnpm": {
+        "name": "PNPM 官方文档",
+        "url": "https://pnpm.io/zh/"
+      },
+      "org_vite": {
+        "name": "Vite 官方文档",
+        "url": "https://cn.vitejs.dev/"
+      },
+      "org_webpack": {
+        "name": "Webpack 官方文档",
+        "url": "https://webpack.docschina.org/"
+      },
+      "org_rollup": {
+        "name": "Rollup 官方文档",
+        "url": "https://rollupjs.org/guide/en/"
+      },
+      "org_esbuild": {
+        "name": "esbuild 官方文档",
+        "url": "https://esbuild.github.io/"
+      },
+      "org_babel": {
+        "name": "Babel 官方文档",
+        "url": "https://babeljs.io/docs/en/"
+      },
+      "org_typescript": {
+        "name": "TypeScript 官方文档",
+        "url": "https://www.typescriptlang.org/docs/"
+      },
+      "org_jest": {
+        "name": "Jest 官方文档",
+        "url": "https://jestjs.io/docs/zh-Hans/getting-started"
+      },
+      "org_mocha": {
+        "name": "Mocha 官方文档",
+        "url": "https://mochajs.org/"
+      },
+      "org_chai": {
+        "name": "Chai 官方文档",
+        "url": "https://www.chaijs.com/"
+      },
+      "org_cypress": {
+        "name": "Cypress 官方文档",
+        "url": "https://www.cypress.io/"
+      },
+      "org_playwright": {
+        "name": "Playwright 官方文档",
+        "url": "https://playwright.dev/"
+      },
+      "org_puppeteer": {
+        "name": "Puppeteer 官方文档",
+        "url": "https://pptr.dev/"
+      },
+      "org_selenium": {
+        "name": "Selenium 官方文档",
+        "url": "https://www.selenium.dev/documentation/"
+      },
+      "w3school_html": {
+        "name": "W3School HTML 教程",
+        "url": "https://www.w3school.com.cn/html/index.asp",
+        "description": "W3School HTML 教程"
+      },
+      "w3school_css": {
+        "name": "W3School CSS 教程",
+        "url": "https://www.w3school.com.cn/css/index.asp",
+        "description": "W3School CSS 教程"
+      },
+      "w3school_js": {
+        "name": "W3School JavaScript 教程",
+        "url": "https://www.w3school.com.cn/js/index.asp",
+        "description": "W3School JavaScript 教程"
+      },
+      "runoob_html": {
+        "name": "菜鸟 HTML 教程",
+        "url": "https://www.runoob.com/html/html-tutorial.html",
+        "description": "菜鸟 HTML 教程"
+      },
+      "runoob_css": {
+        "name": "菜鸟 CSS 教程",
+        "url": "https://www.runoob.com/css/css-tutorial.html",
+        "description": "菜鸟 CSS 教程"
+      },
+      "runoob_js": {
+        "name": "菜鸟 JavaScript 教程",
+        "url": "https://www.runoob.com/js/js-tutorial.html",
+        "description": "菜鸟 JavaScript 教程"
+      },
+      "html_ref": {
+        "name": "HTML 参考手册",
+        "url": "https://www.runoob.com/jsref/jsref-tutorial.html"
+      },
+      "css_ref": {
+        "name": "CSS 参考手册",
+        "url": "https://www.runoob.com/cssref/css-reference.html"
+      },
+      "js_ref": {
+        "name": "JavaScript 和 HTML DOM 参考手册",
+        "url": "https://www.runoob.com/jsref/jsref-tutorial.html"
+      },
+      "AMiner": {
+        "name": "AMiner",
+        "url": "https://www.aminer.cn/",
+        "description": "学术搜索与分析",
+        "keywords": "示例"
+      },
+      "X-MOL": {
+        "name": "X-MOL",
+        "url": "https://www.x-mol.com/",
+        "description": "学术资讯平台",
+        "keywords": "示例"
+      },
+      "Nature": {
+        "name": "Nature",
+        "url": "https://www.nature.com/",
+        "description": "",
+        "keywords": ""
+      },
+      "Science": {
+        "name": "Science",
+        "url": "https://www.science.org/",
+        "description": "",
+        "keywords": ""
+      },
+      "张希": {
+        "name": "张希",
+        "url": "http://zhangxigroup.com/",
+        "description": "清华大学",
+        "keywords": "超分子"
+      },
+      "裴坚": {
+        "name": "裴坚",
+        "url": "http://www.chem.pku.edu.cn/pei/",
+        "description": "北京大学",
+        "keywords": "有机电子"
+      },
+      "鲍哲楠": {
+        "name": "鲍哲楠",
+        "url": "http://baogroup.stanford.edu/",
+        "description": "斯坦福大学",
+        "keywords": "柔性电子"
+      }
     },
-    "scholars": {
-      "id": "scholars",
-      "title": "关注学者",
-      "type": "category",
-      "contents": [],
-      "links": [],
-      "files": []
-    },
-    "web": {
-      "id": "web",
-      "title": "Web",
-      "type": "category",
-      "children": [
-        "html",
-        "css",
-        "javascript"
-      ],
-      "contents": [],
-      "links": [
-        "w3school_html",
-        "w3school_css",
-        "w3school_js",
-        "runoob_html",
-        "runoob_css",
-        "runoob_js"
-      ],
-      "files": []
-    },
-    "nodejs": {
-      "id": "nodejs",
-      "title": "Node.js",
-      "type": "category",
-      "contents": [],
-      "links": [
-        "org_vue",
-        "org_react",
-        "org_angular",
-        "org_nodejs",
-        "org_npm",
-        "org_yarn",
-        "org_pnpm",
-        "org_vite",
-        "org_webpack",
-        "org_rollup",
-        "org_esbuild",
-        "org_babel",
-        "org_typescript"
-      ],
-      "files": []
-    },
-    "php": {
-      "id": "php",
-      "title": "PHP",
-      "type": "category",
-      "contents": [],
-      "links": [
-        "org_php"
-      ],
-      "files": []
-    },
-    "composer": {
-      "id": "composer",
-      "title": "Composer",
-      "type": "category",
-      "contents": [],
-      "links": [
-        "org_composer"
-      ],
-      "files": []
-    }
-  },
-  "_contents": {},
-  "_links": {
-    "org_vue": {
-      "name": "Vue.js 官方文档",
-      "url": "https://cn.vuejs.org/"
-    },
-    "org_react": {
-      "name": "React 官方文档",
-      "url": "https://react.docschina.org/"
-    },
-    "org_angular": {
-      "name": "Angular 官方文档",
-      "url": "https://angular.cn/"
-    },
-    "org_nodejs": {
-      "name": "Node.js 官方文档",
-      "url": "https://nodejs.org/zh-cn/docs/"
-    },
-    "org_php": {
-      "name": "PHP 官方文档",
-      "url": "https://www.php.net/manual/zh/"
-    },
-    "org_composer": {
-      "name": "Composer 官方文档",
-      "url": "https://getcomposer.org/doc/"
-    },
-    "org_npm": {
-      "name": "NPM 官方文档",
-      "url": "https://docs.npmjs.com/"
-    },
-    "org_yarn": {
-      "name": "Yarn 官方文档",
-      "url": "https://yarnpkg.com/zh-Hans/docs/"
-    },
-    "org_pnpm": {
-      "name": "PNPM 官方文档",
-      "url": "https://pnpm.io/zh/"
-    },
-    "org_vite": {
-      "name": "Vite 官方文档",
-      "url": "https://cn.vitejs.dev/"
-    },
-    "org_webpack": {
-      "name": "Webpack 官方文档",
-      "url": "https://webpack.docschina.org/"
-    },
-    "org_rollup": {
-      "name": "Rollup 官方文档",
-      "url": "https://rollupjs.org/guide/en/"
-    },
-    "org_esbuild": {
-      "name": "esbuild 官方文档",
-      "url": "https://esbuild.github.io/"
-    },
-    "org_babel": {
-      "name": "Babel 官方文档",
-      "url": "https://babeljs.io/docs/en/"
-    },
-    "org_typescript": {
-      "name": "TypeScript 官方文档",
-      "url": "https://www.typescriptlang.org/docs/"
-    },
-    "org_jest": {
-      "name": "Jest 官方文档",
-      "url": "https://jestjs.io/docs/zh-Hans/getting-started"
-    },
-    "org_mocha": {
-      "name": "Mocha 官方文档",
-      "url": "https://mochajs.org/"
-    },
-    "org_chai": {
-      "name": "Chai 官方文档",
-      "url": "https://www.chaijs.com/"
-    },
-    "org_cypress": {
-      "name": "Cypress 官方文档",
-      "url": "https://www.cypress.io/"
-    },
-    "org_playwright": {
-      "name": "Playwright 官方文档",
-      "url": "https://playwright.dev/"
-    },
-    "org_puppeteer": {
-      "name": "Puppeteer 官方文档",
-      "url": "https://pptr.dev/"
-    },
-    "org_selenium": {
-      "name": "Selenium 官方文档",
-      "url": "https://www.selenium.dev/documentation/"
-    },
-    "w3school_html": {
-      "name": "W3School HTML 教程",
-      "url": "https://www.w3school.com.cn/html/index.asp",
-      "description": "W3School HTML 教程"
-    },
-    "w3school_css": {
-      "name": "W3School CSS 教程",
-      "url": "https://www.w3school.com.cn/css/index.asp",
-      "description": "W3School CSS 教程"
-    },
-    "w3school_js": {
-      "name": "W3School JavaScript 教程",
-      "url": "https://www.w3school.com.cn/js/index.asp",
-      "description": "W3School JavaScript 教程"
-    },
-    "runoob_html": {
-      "name": "菜鸟 HTML 教程",
-      "url": "https://www.runoob.com/html/html-tutorial.html",
-      "description": "菜鸟 HTML 教程"
-    },
-    "runoob_css": {
-      "name": "菜鸟 CSS 教程",
-      "url": "https://www.runoob.com/css/css-tutorial.html",
-      "description": "菜鸟 CSS 教程"
-    },
-    "runoob_js": {
-      "name": "菜鸟 JavaScript 教程",
-      "url": "https://www.runoob.com/js/js-tutorial.html",
-      "description": "菜鸟 JavaScript 教程"
-    },
-    "html_ref": {
-      "name": "HTML 参考手册",
-      "url": "https://www.runoob.com/jsref/jsref-tutorial.html"
-    },
-    "css_ref": {
-      "name": "CSS 参考手册",
-      "url": "https://www.runoob.com/cssref/css-reference.html"
-    },
-    "js_ref": {
-      "name": "JavaScript 和 HTML DOM 参考手册",
-      "url": "https://www.runoob.com/jsref/jsref-tutorial.html"
-    },
-    "AMiner": {
-      "name": "AMiner",
-      "url": "https://www.aminer.cn/",
-      "description": "学术搜索与分析",
-      "keywords": "示例"
-    },
-    "X-MOL": {
-      "name": "X-MOL",
-      "url": "https://www.x-mol.com/",
-      "description": "学术资讯平台",
-      "keywords": "示例"
-    },
-    "Nature": {
-      "name": "Nature",
-      "url": "https://www.nature.com/",
-      "description": "",
-      "keywords": ""
-    },
-    "Science": {
-      "name": "Science",
-      "url": "https://www.science.org/",
-      "description": "",
-      "keywords": ""
-    },
-    "张希": {
-      "name": "张希",
-      "url": "http://zhangxigroup.com/",
-      "description": "清华大学",
-      "keywords": "超分子"
-    },
-    "裴坚": {
-      "name": "裴坚",
-      "url": "http://www.chem.pku.edu.cn/pei/",
-      "description": "北京大学",
-      "keywords": "有机电子"
-    },
-    "鲍哲楠": {
-      "name": "鲍哲楠",
-      "url": "http://baogroup.stanford.edu/",
-      "description": "斯坦福大学",
-      "keywords": "柔性电子"
-    }
-  },
-  "_files": {},
-  "_relationships": [
-    {
-      "meta": "useful",
-      "link": "AMiner"
-    },
-    {
-      "meta": "useful",
-      "link": "X-MOL"
-    },
-    {
-      "meta": "useful",
-      "link": "Nature"
-    },
-    {
-      "meta": "useful",
-      "link": "X-MOL"
-    },
-    {
-      "meta": "journals",
-      "link": "Nature"
-    },
-    {
-      "meta": "journals",
-      "link": "Science"
-    },
-    {
-      "meta": "scholars",
-      "link": "张希"
-    },
-    {
-      "meta": "scholars",
-      "link": "裴坚"
-    },
-    {
-      "meta": "scholars",
-      "link": "鲍哲楠"
-    }
-  ]
+    "_files": {},
+    "_relationships": [
+      {
+        "meta": "useful",
+        "link": "AMiner"
+      },
+      {
+        "meta": "useful",
+        "link": "X-MOL"
+      },
+      {
+        "meta": "useful",
+        "link": "Nature"
+      },
+      {
+        "meta": "useful",
+        "link": "X-MOL"
+      },
+      {
+        "meta": "journals",
+        "link": "Nature"
+      },
+      {
+        "meta": "journals",
+        "link": "Science"
+      },
+      {
+        "meta": "scholars",
+        "link": "张希"
+      },
+      {
+        "meta": "scholars",
+        "link": "裴坚"
+      },
+      {
+        "meta": "scholars",
+        "link": "鲍哲楠"
+      }
+    ]
+  }
 }
