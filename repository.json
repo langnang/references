@@ -2,9 +2,9 @@
   "name": "langnang/references",
   "title": "References·参考文献",
   "onenav": {
-    "_styles": {},
-    "_scripts": {},
-    "_metas": {
+    "styles": {},
+    "scripts": {},
+    "metas": {
       "useful": {
         "id": "useful",
         "title": "常用网站",
@@ -92,8 +92,8 @@
         "files": []
       }
     },
-    "_contents": {},
-    "_links": {
+    "contents": {},
+    "links": {
       "org_vue": {
         "name": "Vue.js 官方文档",
         "url": "https://cn.vuejs.org/"
@@ -267,8 +267,8 @@
         "keywords": "柔性电子"
       }
     },
-    "_files": {},
-    "_relationships": [
+    "files": {},
+    "relationships": [
       {
         "meta": "useful",
         "link": "AMiner"
